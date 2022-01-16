@@ -7,7 +7,8 @@
 
 public class Pattern_7
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int n=4, p=1;
         for(int i=1; i<=n; i++)
         {
