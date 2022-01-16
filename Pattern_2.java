@@ -8,7 +8,7 @@
 
 public class Pattern_2
 {
-    public static void leftTriangle(int k)
+    public static void triangle(int k)
     {
         int a, b;
         for (a = 0; a <= k; a++) {
