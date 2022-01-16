@@ -11,7 +11,8 @@ public class Pattern_2
     public static void triangle(int k)
     {
         int a, b;
-        for (a = 0; a <= k; a++) {
+        for (a = 0; a <= k; a++)
+        {
             for (b = 2 * (k - a); b >= 0; b--)
             {
                 System.out.print(" ");
