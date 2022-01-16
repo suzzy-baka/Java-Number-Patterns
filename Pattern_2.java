@@ -12,10 +12,12 @@ public class Pattern_2
     {
         int a, b;
         for (a = 0; a <= k; a++) {
-            for (b = 2 * (k - a); b >= 0; b--) {
+            for (b = 2 * (k - a); b >= 0; b--)
+            {
                 System.out.print(" ");
             }
-            for (b = 1; b <= a; b++) {
+            for (b = 1; b <= a; b++)
+            {
                 System.out.print(b+" ");
             }
             System.out.println();
